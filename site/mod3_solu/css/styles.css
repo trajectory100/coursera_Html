@@ -5,18 +5,13 @@ body {
   font-size: 12px;
   color: black;
   background-color: white;
-  /* font-family: 'Oxygen', sans-serif; */
 }
 
 /** HEADER **/
 .navbar {
-  /* border-radius: 0; */
   background-color: gray;
-  /* height: 80px; */
   border: black solid 2px;
-
 }
-
 
 .navbar navbar-brand {
   padding-top: 25px;
@@ -32,9 +27,7 @@ body {
   top: 6px;
   bottom: 35px;
   padding-top: 0px;
-
 }
-
 
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -48,20 +41,18 @@ body {
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
   text-align: center;
-
 }
 
 #nav-list {
   margin-top: 0px;
   background-color: white;
   margin-bottom: 0px;
-
-  /* border: 1.5px solid black; */
 }
 
 #nav-list  li:nth-child(1){
   border-top: black solid 2px;
 }
+
 #nav-list a {
   text-align:center;
   color: black;
@@ -84,11 +75,6 @@ body {
   margin-top: 6px;
 }
 
-/* .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 2px solid black;
-  color: black;
-} */
-
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 2px solid black;
   color: black;
@@ -103,10 +89,7 @@ body {
   color: #ff0000;
 }
 
-
-
 /* END HEADER */
-
 .jumbotron{
   /* background-color: gray; */
   height: 1000px;
@@ -116,44 +99,30 @@ body {
   font-family: 'Oxygen', sans-serif;
   font-size: 11px;
   padding-top: 3px;
-
 }
 
 span cen{
   text-align: center;
   font-family: 'Oxygen', sans-serif;
 }
-.text-center{
-  padding-top: 3px;
-
-}
-
 /* END HOME PAGE */
 
 /********** Medium devices and Large devices **********/
 @media (min-width: 992px)  {
-  /* Nav */
   #nav-list a {
     display: none;
 }
-  /* End Nav */
-
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  /* Nav */
   #nav-list a {
     display: none;
 }
-  /* End Nav */
-
-
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-  /* Header */
   .jumbotron {
     margin-top: 20px;
 }
