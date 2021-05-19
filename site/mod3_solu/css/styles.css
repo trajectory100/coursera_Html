@@ -12,10 +12,12 @@ body {
 .navbar {
   background-color: gray;
   border: black solid 2px;
+  border-radius: 0px;
+
 }
 
-.navbar navbar-brand {
-  padding-top: 25px;
+.navbar-brand {
+  padding-top: 30px;
 }
 
 .navbar-brand h1 {
@@ -99,6 +101,11 @@ body {
   color: white;
 }
 
+#listing {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 /* END HEADER */
 .jumbotron {
   /* background-color: gray; */
@@ -122,15 +129,19 @@ span cen {
 
 /********** Medium devices and Large devices **********/
 @media (min-width: 992px) {
-    .navbar-brand {
-    margin-bottom: 25px;
+  #nav-list a {
+    display: none;
+  }
+
+  .navbar-brand {
+    margin-bottom: 30px;
   }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-    .navbar-brand {
-    margin-bottom: 25px;
+  #nav-list a {
+    display: none;
   }
 }
 
