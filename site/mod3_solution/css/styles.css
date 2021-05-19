@@ -1,0 +1,123 @@
+body {
+    font-size: 12px;
+    color: #fff;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+#header-nav {
+  border-radius: 0;
+  background-color: gray;
+  height: 80px;
+  border: black solid 2px;
+}
+  
+.navbar-brand {
+  padding-top: 25px;
+}
+ 
+h1 { /* Restaurant name */
+  /* font-family: 'Lora', serif; */
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px;
+  line-height: .75;
+  position: relative;
+  top: 6px;
+  bottom: 35px;
+  padding-top: 0px;
+
+}
+
+
+/* collaps bar */
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+  color: black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* end collaps bar */
+
+  /********** Large devices only **********/
+  /* @media (min-width: 1200px) {
+    .container .jumbotron {
+      background: url('../images/jumbotron_1200.jpg') no-repeat;
+      height: 675px;
+    }
+  }
+   */
+  /********** Medium devices only **********/
+  @media (min-width: 768px) {
+    
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 576px) and (max-width: 767px) {
+    
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+      font-size: 1em;
+      margin-right: 2px;
+    }
+  
+    #call-btn > a {
+      font-size: 1.5em;
+      display: block;
+      /* margin: 0 10px; */
+      padding: 5px;
+      background-color: gray;
+      color: black;
+      border: 1.5px solid black;
+
+    }
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 575px) {
+    #header-nav {
+      height: 70px;
+    }
+    .navbar-header button.navbar-toggle {
+      clear: both;
+      margin-top: -38px;
+    }
+    .navbar-brand h1 { 
+      font-size: 5vw;
+      top: 0px;     
+      bottom: 10px;
+    }
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+      font-size: 1em;
+      margin-right: 5px;
+    }
+  
+  }
+  
+  
+  
+  
