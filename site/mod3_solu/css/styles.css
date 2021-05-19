@@ -122,15 +122,15 @@ span cen {
 
 /********** Medium devices and Large devices **********/
 @media (min-width: 992px) {
-  #nav-list a {
-    display: none;
+    .navbar-brand {
+    margin-bottom: 30px;
   }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  #nav-list a {
-    display: none;
+    .navbar-brand {
+    margin-bottom: 30px;
   }
 }
 
