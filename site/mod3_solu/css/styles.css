@@ -1,8 +1,9 @@
-*{
+* {
   box-sizing: border-box;
 }
+
 body {
-  font-size: 12px;
+  font-size: 18px;
   color: black;
   background-color: white;
 }
@@ -11,13 +12,16 @@ body {
 .navbar {
   background-color: gray;
   border: black solid 2px;
+  border-radius: 0px;
+
 }
 
-.navbar navbar-brand {
-  padding-top: 25px;
+.navbar-brand {
+  padding-top: 30px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 {
+  /* Restaurant name */
   color: black;
   font-size: 1.5em;
   font-weight: bold;
@@ -29,16 +33,21 @@ body {
   padding-top: 0px;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand a:hover,
+.navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
+
+.navbar-brand p {
+  /* Kosher cert */
   color: #000;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 32px;
 }
-.navbar-brand p span { /* Star-K */
+
+.navbar-brand p span {
+  /* Star-K */
   vertical-align: middle;
   text-align: center;
 }
@@ -49,12 +58,12 @@ body {
   margin-bottom: 0px;
 }
 
-#nav-list  li:nth-child(1){
+#nav-list li:nth-child(1) {
   border-top: black solid 2px;
 }
 
 #nav-list a {
-  text-align:center;
+  text-align: center;
   color: black;
   border: 1.5px solid black;
   padding-top: 2px;
@@ -65,17 +74,20 @@ body {
   background: #E7E7E7;
 
 }
+
 #nav-list a span {
   font-size: 1.8em;
   text-align: center;
 
 }
-#collapsable-nav{
+
+#collapsable-nav {
   border: none;
   margin-top: 6px;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
   border: 2px solid black;
   color: black;
 }
@@ -85,45 +97,59 @@ body {
   margin-top: -30px;
 }
 
-.navbar-header button.navbar-toggle:after { 
-  color: #ff0000;
+.navbar-header button.navbar-toggle:after {
+  color: white;
+}
+
+#listing {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* END HEADER */
-.jumbotron{
+.jumbotron {
   /* background-color: gray; */
   height: 1000px;
   border: 1px solid black;
   text-align: justify;
   overflow: auto;
   font-family: 'Oxygen', sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   padding-top: 3px;
+  margin-top: 5px;
+
 }
 
-span cen{
+span cen {
   text-align: center;
   font-family: 'Oxygen', sans-serif;
 }
+
 /* END HOME PAGE */
 
 /********** Medium devices and Large devices **********/
-@media (min-width: 992px)  {
+@media (min-width: 992px) {
   #nav-list a {
     display: none;
-}
+  }
+  .navbar-brand {
+    margin-bottom: 30px;
+  }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-list a {
     display: none;
-}
+  }
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   .jumbotron {
-    margin-top: 20px;
-}
+    margin-top: 30px;
+  }
+  .navbar-brand {
+    padding-top: 25px;
+  }
 }
