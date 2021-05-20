@@ -130,6 +130,8 @@ section {
   }
   .col-md-4 {
     width: 32%;
+        border: 1px solid black;
+
     }
   #nav-list a {
     display: none;
