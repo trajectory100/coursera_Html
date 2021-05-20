@@ -94,7 +94,7 @@ body {
 
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -50px;
+  margin-top: -60px;
 }
 
 .navbar-header button.navbar-toggle:after {
@@ -175,7 +175,7 @@ section {
     width: 98.5%;
     margin: 10px 2px;
   }
-  .navbar-brand {
+/*   .navbar-brand {
     margin-left: 6px;
-  }
+  } */
 }
