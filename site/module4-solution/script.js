@@ -73,7 +73,7 @@ WARNING!!! WARNING!!!
 
 // my version
 (function (){
-  console.log("This is my method compact and easy in short form");
+  console.log("This is my method compact and easy in short form, If you are checking the script.js you will see the function at the end.");
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
   var i;
   var text = "";
